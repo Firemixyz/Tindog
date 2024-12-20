@@ -1,0 +1,53 @@
+#title{
+    background-color: #ff3c68;
+}
+
+
+
+
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "Montserrat-Light";
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+
+@font-face{
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+.h1new{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.body{
+    font-family: Montserrat;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold
+
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: large;
+    font-family: Montserrat-Light;
+}
+.download-button{
+    margin: 5% 3% 0 5%;
+}
+.title-image{
+    width: 40%;
+    transform: rotate(25deg);
+}
