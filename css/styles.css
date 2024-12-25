@@ -2,9 +2,6 @@
     background-color: #ff3c68;
 }
 
-
-
-
 @font-face{
     font-family: "Montserrat";
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
@@ -12,6 +9,10 @@
 @font-face{
     font-family: "Montserrat-Light";
     src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
 }
 
 
@@ -50,4 +51,38 @@
 .title-image{
     width: 40%;
     transform: rotate(25deg);
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-family: Montserrat-Bold;
+    font-size: 3px;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.card-body{
+    text-align: center;
+}
+.card-deck{
+    margin-left: 0 5%;
+    display: flex;
+    justify-content: space-around;
 }
